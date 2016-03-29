@@ -10,16 +10,15 @@
       <config projectName="Ceph" targetName="cls_user" />
       <config projectName="Ceph" targetName="unittest_subprocess" />
       <config projectName="Ceph" targetName="unittest_crc32c" />
-      <config projectName="Ceph" targetName="cls_replica_log_client" />
       <config projectName="Ceph" targetName="unittest_confutils" />
       <config projectName="Ceph" targetName="rbd" />
       <config projectName="Ceph" targetName="unittest_perf_counters" />
       <config projectName="Ceph" targetName="unittest_prebufferedstreambuf" />
       <config projectName="Ceph" targetName="cephfstool" />
-      <config projectName="Ceph" targetName="os_mon_objs" />
+      <config projectName="Ceph" targetName="test_keyvaluedb_atomicity" />
       <config projectName="Ceph" targetName="unittest_bit_vector" />
       <config projectName="Ceph" targetName="unittest_readahead" />
-      <config projectName="Ceph" targetName="rbd_replay" />
+      <config projectName="Ceph" targetName="unittest_erasure_code_shec_all" />
       <config projectName="Ceph" targetName="cls_cephfs_client" />
       <config projectName="Ceph" targetName="vstart" />
       <config projectName="Ceph" targetName="smalliobench" />
@@ -27,19 +26,19 @@
       <config projectName="Ceph" targetName="check" />
       <config projectName="Ceph" targetName="unittest_osdscrub" />
       <config projectName="Ceph" targetName="unittest_safe_io" />
+      <config projectName="Ceph" targetName="multi_stress_watch" />
       <config projectName="Ceph" targetName="librados-config" />
       <config projectName="Ceph" targetName="unittest_erasure_code_plugin_lrc" />
       <config projectName="Ceph" targetName="smalliobenchfs" />
-      <config projectName="Ceph" targetName="unittest_heartbeatmap" />
+      <config projectName="Ceph" targetName="journal" />
       <config projectName="Ceph" targetName="unittest_crypto" />
       <config projectName="Ceph" targetName="crush" />
-      <config projectName="Ceph" targetName="multi_stress_watch" />
+      <config projectName="Ceph" targetName="test_cors" />
       <config projectName="Ceph" targetName="cls_refcount" />
       <config projectName="Ceph" targetName="librados" />
       <config projectName="Ceph" targetName="cls_statelog" />
       <config projectName="Ceph" targetName="unittest_snap_mapper" />
       <config projectName="Ceph" targetName="heap_profiler_objs" />
-      <config projectName="Ceph" targetName="json_spirit" />
       <config projectName="Ceph" targetName="cls_rbd_client" />
       <config projectName="Ceph" targetName="unittest_librados_config" />
       <config projectName="Ceph" targetName="gtest" />
@@ -47,7 +46,7 @@
       <config projectName="Ceph" targetName="cephfs-data-scan" />
       <config projectName="Ceph" targetName="get_command_descriptions" />
       <config projectName="Ceph" targetName="unittest_sharedptr_registry" />
-      <config projectName="Ceph" targetName="test_objectstore" />
+      <config projectName="Ceph" targetName="common" />
       <config projectName="Ceph" targetName="cls_replica_log" />
       <config projectName="Ceph" targetName="test_rados_api_aio" />
       <config projectName="Ceph" targetName="mon_common_objs" />
@@ -60,9 +59,11 @@
       <config projectName="Ceph" targetName="test_cls_version" />
       <config projectName="Ceph" targetName="librbd_replay_types" />
       <config projectName="Ceph" targetName="radosgw-object-expirer" />
-      <config projectName="Ceph" targetName="unittest_mds_authcap" />
+      <config projectName="Ceph" targetName="test_objectstore" />
       <config projectName="Ceph" targetName="cls_log_client" />
       <config projectName="Ceph" targetName="unittest_shared_cache" />
+      <config projectName="Ceph" targetName="osdc_rbd_objs" />
+      <config projectName="Ceph" targetName="cls_timeindex_client" />
       <config projectName="Ceph" targetName="parse_secret_objs" />
       <config projectName="Ceph" targetName="test_object_map" />
       <config projectName="Ceph" targetName="test_timers" />
@@ -88,9 +89,9 @@
       <config projectName="Ceph" targetName="unittest_bloom_filter" />
       <config projectName="Ceph" targetName="ceph-dencoder" />
       <config projectName="Ceph" targetName="mds" />
-      <config projectName="Ceph" targetName="unittest_erasure_code" />
       <config projectName="Ceph" targetName="unittest_erasure_code_shec_arguments" />
       <config projectName="Ceph" targetName="unittest_run_cmd" />
+      <config projectName="Ceph" targetName="test_rados_delete_pools_parallel" />
       <config projectName="Ceph" targetName="test_rados_api_c_write_operations" />
       <config projectName="Ceph" targetName="unittest_histogram" />
       <config projectName="Ceph" targetName="test_cls_refcount" />
@@ -101,28 +102,30 @@
       <config projectName="Ceph" targetName="cls_rbd" />
       <config projectName="Ceph" targetName="test_rados_api_stat" />
       <config projectName="Ceph" targetName="unittest_util" />
-      <config projectName="Ceph" targetName="unittest_erasure_code_shec_all" />
+      <config projectName="Ceph" targetName="unittest_chain_xattr" />
       <config projectName="Ceph" targetName="unittest_crypto_init" />
-      <config projectName="Ceph" targetName="unittest_gather" />
+      <config projectName="Ceph" targetName="cls_journal" />
       <config projectName="Ceph" targetName="smalliobenchdumb" />
       <config projectName="Ceph" targetName="test_get_blkdev_size" />
       <config projectName="Ceph" targetName="unittest_on_exit" />
-      <config projectName="Ceph" targetName="omapbench" />
+      <config projectName="Ceph" targetName="test_rgw_manifest" />
+      <config projectName="Ceph" targetName="unittest_formatter" />
       <config projectName="Ceph" targetName="unittest_ipaddr" />
       <config projectName="Ceph" targetName="streamtest" />
+      <config projectName="Ceph" targetName="rbd_replay" />
       <config projectName="Ceph" targetName="unittest_erasure_code_isa" />
-      <config projectName="Ceph" targetName="journal" />
       <config projectName="Ceph" targetName="cephfs" />
       <config projectName="Ceph" targetName="unittest_io_priority" />
-      <config projectName="Ceph" targetName="cls_kvs" />
+      <config projectName="Ceph" targetName="unittest_librbd" />
       <config projectName="Ceph" targetName="crushtool" />
       <config projectName="Ceph" targetName="unittest_librados" />
       <config projectName="Ceph" targetName="simple_server" />
       <config projectName="Ceph" targetName="ceph-osd" />
       <config projectName="Ceph" targetName="unittest_async_compressor" />
-      <config projectName="Ceph" targetName="test_cls_hello" />
+      <config projectName="Ceph" targetName="test_cls_statelog" />
       <config projectName="Ceph" targetName="test_keys" />
       <config projectName="Ceph" targetName="osd_mon_objs" />
+      <config projectName="Ceph" targetName="unittest_heartbeatmap" />
       <config projectName="Ceph" targetName="test_rados_watch_notify" />
       <config projectName="Ceph" targetName="cls_version_client" />
       <config projectName="Ceph" targetName="unittest_strtol" />
@@ -132,14 +135,15 @@
       <config projectName="Ceph" targetName="unittest_texttable" />
       <config projectName="Ceph" targetName="cls_refcount_client" />
       <config projectName="Ceph" targetName="unittest_ceph_argparse" />
+      <config projectName="Ceph" targetName="unittest_context" />
       <config projectName="Ceph" targetName="cls_statelog_client" />
-      <config projectName="Ceph" targetName="common_mountcephfs_objs" />
+      <config projectName="Ceph" targetName="cls_rgw" />
       <config projectName="Ceph" targetName="erasure_code_plugins" />
       <config projectName="Ceph" targetName="simple_client" />
       <config projectName="Ceph" targetName="symlinks" />
       <config projectName="Ceph" targetName="unittest_encoding" />
       <config projectName="Ceph" targetName="cephfs-table-tool" />
-      <config projectName="Ceph" targetName="common" />
+      <config projectName="Ceph" targetName="librbd_replay" />
       <config projectName="Ceph" targetName="test_signal_handlers" />
       <config projectName="Ceph" targetName="cls_lock_client" />
       <config projectName="Ceph" targetName="unittest_crush_wrapper" />
@@ -150,10 +154,7 @@
       <config projectName="Ceph" targetName="unittest_erasure_code_jerasure_plugin" />
       <config projectName="Ceph" targetName="unittest_addrs" />
       <config projectName="Ceph" targetName="cls_references_objs" />
-      <config projectName="Ceph" targetName="radostest" />
       <config projectName="Ceph" targetName="osdmaptool" />
-      <config projectName="Ceph" targetName="test_cls_rgw" />
-      <config projectName="Ceph" targetName="test_keyvaluedb_atomicity" />
       <config projectName="Ceph" targetName="test_rados_api_list" />
       <config projectName="Ceph" targetName="unittest_erasure_code_shec" />
       <config projectName="Ceph" targetName="ceph-authtool" />
@@ -171,9 +172,10 @@
       <config projectName="Ceph" targetName="test_rados_api_misc" />
       <config projectName="Ceph" targetName="unittest_sloppy_crc_map" />
       <config projectName="Ceph" targetName="erasure_code" />
-      <config projectName="Ceph" targetName="gmock" />
+      <config projectName="Ceph" targetName="cls_cephfs" />
       <config projectName="Ceph" targetName="test_rados_api_cls" />
       <config projectName="Ceph" targetName="unittest_osd_types" />
+      <config projectName="Ceph" targetName="test_rados_list_parallel" />
       <config projectName="Ceph" targetName="ceph-mon" />
       <config projectName="Ceph" targetName="test_librbd_fsx" />
       <config projectName="Ceph" targetName="test_rados_api_watch_notify" />
@@ -182,15 +184,15 @@
       <config projectName="Ceph" targetName="erasure_code_objs" />
       <config projectName="Ceph" targetName="systest" />
       <config projectName="Ceph" targetName="test_msgr" />
-      <config projectName="Ceph" targetName="cls_cephfs" />
+      <config projectName="Ceph" targetName="os_mon_objs" />
       <config projectName="Ceph" targetName="cls_version" />
       <config projectName="Ceph" targetName="osd" />
       <config projectName="Ceph" targetName="test_rados_api_lock" />
-      <config projectName="Ceph" targetName="cls_timeindex" />
+      <config projectName="Ceph" targetName="unittest_erasure_code" />
       <config projectName="Ceph" targetName="test_mon_workloadgen" />
       <config projectName="Ceph" targetName="unittest_erasure_code_plugin" />
       <config projectName="Ceph" targetName="ceph-fuse" />
-      <config projectName="Ceph" targetName="cls_journal" />
+      <config projectName="Ceph" targetName="radostest" />
       <config projectName="Ceph" targetName="common_util_obj" />
       <config projectName="Ceph" targetName="unittest_str_list" />
       <config projectName="Ceph" targetName="monmaptool" />
@@ -202,34 +204,33 @@
       <config projectName="Ceph" targetName="test_rados_api_pool" />
       <config projectName="Ceph" targetName="os" />
       <config projectName="Ceph" targetName="test_cls_lock" />
-      <config projectName="Ceph" targetName="test_cors" />
+      <config projectName="Ceph" targetName="common_mountcephfs_objs" />
       <config projectName="Ceph" targetName="unittest_prioritized_queue" />
       <config projectName="Ceph" targetName="test_keyvaluedb" />
-      <config projectName="Ceph" targetName="test_rados_delete_pools_parallel" />
+      <config projectName="Ceph" targetName="unittest_mon_pgmap" />
       <config projectName="Ceph" targetName="ec_jerasure_sse3" />
-      <config projectName="Ceph" targetName="librbd_replay" />
+      <config projectName="Ceph" targetName="cls_kvs" />
       <config projectName="Ceph" targetName="unittest_xlist" />
       <config projectName="Ceph" targetName="test_c_headers" />
-      <config projectName="Ceph" targetName="unittest_formatter" />
+      <config projectName="Ceph" targetName="cls_replica_log_client" />
       <config projectName="Ceph" targetName="unittest_striper" />
       <config projectName="Ceph" targetName="unittest_ceph_compatset" />
       <config projectName="Ceph" targetName="unittest_erasure_code_lrc" />
       <config projectName="Ceph" targetName="test_cls_log" />
       <config projectName="Ceph" targetName="test_libcephfs" />
-      <config projectName="Ceph" targetName="unittest_context" />
+      <config projectName="Ceph" targetName="test_cls_hello" />
       <config projectName="Ceph" targetName="unittest_utf8" />
       <config projectName="Ceph" targetName="unittest_arch" />
-      <config projectName="Ceph" targetName="unittest_lfnindex" />
       <config projectName="Ceph" targetName="tpbench" />
       <config projectName="Ceph" targetName="test_rados_api_c_read_operations" />
       <config projectName="Ceph" targetName="ec_jerasure" />
-      <config projectName="Ceph" targetName="test_rgw_manifest" />
+      <config projectName="Ceph" targetName="test_cls_rgw" />
       <config projectName="Ceph" targetName="cls_journal_client" />
-      <config projectName="Ceph" targetName="cls_rgw" />
+      <config projectName="Ceph" targetName="cephfs_testing" />
       <config projectName="Ceph" targetName="cephfs-journal-tool" />
       <config projectName="Ceph" targetName="unittest_daemon_config" />
       <config projectName="Ceph" targetName="unittest_osdmap" />
-      <config projectName="Ceph" targetName="cls_timeindex_client" />
+      <config projectName="Ceph" targetName="omapbench" />
       <config projectName="Ceph" targetName="cls_lock" />
       <config projectName="Ceph" targetName="unittest_admin_socket" />
       <config projectName="Ceph" targetName="test_mutate" />
@@ -241,28 +242,27 @@
       <config projectName="Ceph" targetName="unittest_bufferlist" />
       <config projectName="Ceph" targetName="unittest_mds_types" />
       <config projectName="Ceph" targetName="client" />
-      <config projectName="Ceph" targetName="test_cls_statelog" />
-      <config projectName="Ceph" targetName="osdc_rbd_objs" />
+      <config projectName="Ceph" targetName="json_spirit" />
+      <config projectName="Ceph" targetName="cls_timeindex" />
       <config projectName="Ceph" targetName="unittest_str_map" />
       <config projectName="Ceph" targetName="test_rados_api_io" />
-      <config projectName="Ceph" targetName="test_rados_list_parallel" />
+      <config projectName="Ceph" targetName="unittest_gather" />
       <config projectName="Ceph" targetName="unittest_ecbackend" />
       <config projectName="Ceph" targetName="unittest_crush" />
-      <config projectName="Ceph" targetName="unittest_librbd" />
       <config projectName="Ceph" targetName="unittest_mds_sessionfilter" />
-      <config projectName="Ceph" targetName="unittest_chain_xattr" />
+      <config projectName="Ceph" targetName="unittest_mds_authcap" />
       <config projectName="Ceph" targetName="test_stress_watch" />
       <config projectName="Ceph" targetName="test_filestore_idempotent" />
       <config projectName="Ceph" targetName="ec_isa" />
       <config projectName="Ceph" targetName="global_common_objs" />
       <config projectName="Ceph" targetName="unittest_rbd_replay" />
-      <config projectName="Ceph" targetName="unittest_mon_pgmap" />
+      <config projectName="Ceph" targetName="unittest_lfnindex" />
       <config projectName="Ceph" targetName="unittest_workqueue" />
       <config projectName="Ceph" targetName="unittest_erasure_code_example" />
       <config projectName="Ceph" targetName="unittest_libcephfs_config" />
       <config projectName="Ceph" targetName="test_cls_replica_log" />
       <config projectName="Ceph" targetName="unittest_blkdev" />
-      <config projectName="Ceph" targetName="cephfs_testing" />
+      <config projectName="Ceph" targetName="gmock" />
       <config projectName="Ceph" targetName="test_objectcacher_stress" />
       <config projectName="Ceph" targetName="unittest_config" />
       <config projectName="Ceph" targetName="unittest_erasure_code_jerasure" />
@@ -275,8 +275,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="778c30d2-811b-4e72-998f-75c2d41ed29a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crush/mapper.c" afterPath="$PROJECT_DIR$/src/crush/mapper.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tools/crushtool.cc" afterPath="$PROJECT_DIR$/src/tools/crushtool.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ceph.iml" afterPath="$PROJECT_DIR$/.idea/ceph.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ceph.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -300,7 +300,7 @@
       <file leaf-file-name="mapper.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/crush/mapper.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.78846157">
+            <state vertical-scroll-proportion="1.3324538">
               <caret line="239" column="9" selection-start-line="239" selection-start-column="9" selection-end-line="239" selection-end-column="9" />
               <folding />
             </state>
@@ -396,9 +396,9 @@
   <component name="OCFindUsagesOptions" text="false" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1295" />
-    <option name="height" value="744" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -1853,19 +1853,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1295" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="-4" width="1295" height="772" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2539308" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25328186" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39103556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38955224" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -2324,7 +2324,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/crush/mapper.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78846157">
+        <state vertical-scroll-proportion="1.3324538">
           <caret line="239" column="9" selection-start-line="239" selection-start-column="9" selection-end-line="239" selection-end-column="9" />
           <folding />
         </state>
