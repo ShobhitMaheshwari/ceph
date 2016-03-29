@@ -225,21 +225,34 @@ static int bucket_tree_choose(struct crush_bucket_tree *bucket,
 static int bucket_straw_choose(struct crush_bucket_straw *bucket,
 			       int x, int r)
 {
-	__u32 i;
-	int high = 0;
-	__u64 high_draw = 0;
-	__u64 draw;
+//	__u32 i;
+//	int high = 0;
+//	__u64 high_draw = 0;
+//	__u64 draw;
+//
+//	for (i = 0; i < bucket->h.size; i++) {
+//		draw = crush_hash32_3(bucket->h.hash, x, bucket->h.items[i], r);
+//		draw &= 0xffff;
+//		draw *= bucket->straws[i];
+//		if (i == 0 || draw > high_draw) {
+//			high = i;
+//			high_draw = draw;
+//		}
+//	}
+//	return bucket->h.items[high];
 
-	for (i = 0; i < bucket->h.size; i++) {
-		draw = crush_hash32_3(bucket->h.hash, x, bucket->h.items[i], r);
-		draw &= 0xffff;
-		draw *= bucket->straws[i];
-		if (i == 0 || draw > high_draw) {
-			high = i;
-			high_draw = draw;
-		}
+	__u32 seed = crush_hash32_2(bucket->h.hash, x, r);
+	__u64 key = seed;
+	__s64 b = -1;
+	__s64 j = 0;
+	while (j < bucket->h.size)
+	{
+		b = j;
+		key = key * 2862933555777941757ULL + 1;
+		j = (b+1)*((double)(1LL << 31)/(double)((key >> 33)+1));
 	}
-	return bucket->h.items[high];
+	return bucket->h.items[b];
+
 }
 
 /* compute 2^44*log2(input+1) */
